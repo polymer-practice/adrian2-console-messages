@@ -14,6 +14,9 @@
 
     <custom-style>
       <style is="custom-style" include="demo-pages-shared-styles">
+        .text-msg {
+          color:red;
+        }
       </style>
     </custom-style>
   </head>
@@ -22,7 +25,9 @@
       <h3>Basic console-messages demo</h3>
       <demo-snippet>
         <template>
-          <console-messages></console-messages>
+          <console-messages>
+            <span class="text-msg">Example of console message</span>
+          </console-messages>
         </template>
       </demo-snippet>
     </div>
